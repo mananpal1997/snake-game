@@ -50,13 +50,13 @@ public class snake_board extends JPanel implements ActionListener {
 
     private void load_images() {
 
-        ImageIcon iid = new ImageIcon("E:\\NetBeans App pics\\dot.png");
+        ImageIcon iid = new ImageIcon("dot.png");
         ball = iid.getImage();
 
-        ImageIcon iia = new ImageIcon("E:\\NetBeans App pics\\apple.jpg");
+        ImageIcon iia = new ImageIcon("apple.jpg");
         apple = iia.getImage();
 
-        ImageIcon iih = new ImageIcon("E:\\NetBeans App pics\\dot.png");
+        ImageIcon iih = new ImageIcon("dot.png");
         head = iih.getImage();
     }
 
